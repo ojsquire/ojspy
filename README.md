@@ -1,0 +1,2 @@
+# ojspy
+Useful python functions
