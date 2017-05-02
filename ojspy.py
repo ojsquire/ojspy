@@ -1,3 +1,6 @@
+# Some useful python functions. Will add more structure as more
+# functions are added
+
 # Multi-line plot
 def plot_multi_line(dat, x, y, factor, x_label = '',
                     y_label = '', title = '', legend = True, xtick =
