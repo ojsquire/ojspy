@@ -1,6 +1,11 @@
 # Some useful python functions. Will add more structure as more
 # functions are added
 
+# Dependencies
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.ticker import FuncFormatter
+
 # Multi-line plot
 def plot_multi_line(dat, x, y, factor, x_label = '',
                     y_label = '', title = '', legend = True, xtick =
@@ -25,4 +30,4 @@ def plot_multi_line(dat, x, y, factor, x_label = '',
     ax.set_ylabel(y_label, fontsize = 'x-large')
     ax.set_title(title, loc = 'left', fontsize = 'xx-large')
     ax.tick_params(axis = 'both', labelsize = 14)
-    plt.show()
+    return(plt)
