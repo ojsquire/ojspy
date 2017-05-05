@@ -30,4 +30,4 @@ def plot_multi_line(dat, x, y, factor, x_label = '',
     ax.set_ylabel(y_label, fontsize = 'x-large')
     ax.set_title(title, loc = 'left', fontsize = 'xx-large')
     ax.tick_params(axis = 'both', labelsize = 14)
-    return(plt)
+    return(ax)
